@@ -1,0 +1,388 @@
+<?php require_once 'header.php'; ?>
+
+<main class="main-body" id="home">
+
+    <div class="text-div">
+        <h2>Hey, I am Martin.</h2>
+
+        <div class=" animate">
+           
+
+
+            <p class="lead">Web Designer and Developer from Kenya.I create custom Websites to help Business do better online.</p>
+        </div>
+        <!-- <br><i class="fas fa-hand-point-down"></i> -->
+
+
+
+        <!-- <div class="moving-text">
+            <h4>web design</h4>
+            <h4>web development</h4>
+            <h4>web hosting</h4>
+            <h4>domain name creation</h4>
+        </div>
+
+
+        <div class="social-icons">
+
+            <i class="lead"><small> your website<i class="fas fa-globe"></i> doctor you can trust </small></i>
+        </div> -->
+    </div>
+<div class="background"></div>
+
+    <div class="img">
+        <img src="./pics/mypic.jpg" alt="">
+    </div>
+</main>
+<section class="section" id="about">
+      <div class="title">
+        <h2>about me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+          aperiam!
+        </p>
+      </div>
+
+      <div class="about-center section-center" >
+        <article class="about-img">
+          <img src="./pics/mypic.jpg"   alt="" />
+        </article>
+        <article class="about">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="about">about me</button>
+             
+            <button class="tab-btn" data-id="vision">vision</button>
+            <button class="tab-btn" data-id="goals">goals</button>
+            
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content " id="history">
+              <h4>history</h4>
+              <p>
+                I'm baby wolf pickled schlitz try-hard normcore marfa man bun
+                mumblecore vice pop-up XOXO lomo kombucha glossier bicycle
+                rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard
+                tilde try-hard, woke fixie banjo man bun. Small batch tumeric
+                mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral
+                direct trade hoodie ugh chambray, craft beer pork belly flannel
+                tacos single-origin coffee art party migas plaid pop-up.
+              </p>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="vision">
+              <h4>vision</h4>
+              <p>
+                Man bun PBR&B keytar copper mug prism, hell of helvetica. Synth
+                crucifix offal deep v hella biodiesel. Church-key listicle
+                polaroid put a bird on it chillwave palo santo enamel pin,
+                tattooed meggings franzen la croix cray. Retro yr aesthetic four
+                loko tbh helvetica air plant, neutra palo santo tofu mumblecore.
+                Hoodie bushwick pour-over jean shorts chartreuse shabby chic.
+                Roof party hammock master cleanse pop-up truffaut, bicycle
+                rights skateboard affogato readymade sustainable deep v
+                live-edge schlitz narwhal.
+              </p>
+              <ul>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+              </ul>
+            </div>
+            <!-- end of single item -->
+            <!-- single item -->
+            <div class="content" id="goals">
+              <h4>goals</h4>
+              <p>
+                Chambray authentic truffaut, kickstarter brunch taxidermy vape
+                heirloom four dollar toast raclette shoreditch church-key.
+                Poutine etsy tote bag, cred fingerstache leggings cornhole
+                everyday carry blog gastropub. Brunch biodiesel sartorial mlkshk
+                swag, mixtape hashtag marfa readymade direct trade man braid
+                cold-pressed roof party. Small batch adaptogen coloring book
+                heirloom. Letterpress food truck hammock literally hell of wolf
+                beard adaptogen everyday carry. Dreamcatcher pitchfork yuccie,
+                banh mi salvia venmo photo booth quinoa chicharrones.
+              </p>
+            </div>
+            <!-- end of single item -->
+            <div class="content active" id="about">
+              <h4>about me</h4>
+            
+                 <p  >
+                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas laborum rem dolores ipsam incidunt id quo est fugiat repudiandae. Quasi aspernatur libero rerum reiciendis blanditiis facere magni dolorem culpa aperiam.<strong class="dots">...</strong> <span class="hide">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores explicabo quibusdam fugiat voluptatibus asperiores inventore perferendis officiis recusandae. Eligendi, officiis.
+                                    <br>
+                                    <br>
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor odit deserunt cumque accusantium eius culpa fugit a sequi quibusdam repellendus, temporibus ipsa dolores vitae tempora maxime autem? Quis, asperiores nam?.
+                                    <br>
+                                    <br>
+                          
+
+                                </span>
+
+                            </span>
+                        <div class="btns"> <button class="moreBtn"> Read On</button>
+                           
+                        </div>
+                        </p>
+
+            
+            </div>
+            <!-- end of single item -->
+          </div>
+        </article>
+      </div>
+    </section>
+<section class="container section-center section" id="skills" >
+  <div class="title">
+        <h2>my skills</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+          aperiam!
+        </p>
+      </div>
+
+    <div class="containers">
+
+        <div class="skills-image">
+            <img src="./pics/darklaptop.jpeg" alt="">
+            <p class="skillsparagraph">Through my journey, I have mustered quite a skill in a number of Computer languages.</p>
+        </div>
+
+
+        <div class="right-container">
+            <div class="sub-title">
+                <h4>This include...</h4>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>html</span>
+                    <span>95%</span>
+                </div>
+                <div class="line html"></div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>css</span>
+                    <span>95%</span>
+                </div>
+                <div class="line css"></div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>javasript</span>
+                    <span>80%</span>
+                </div>
+                <div class="line javascript"></div>
+            </div>
+            <div class="skillhide">
+                <div class="bar">
+                    <div class="info">
+                        <span>php</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="line php"></div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>mysql</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                </div>
+                <!-- <div class="bar">
+                    <div class="info">
+                        <span>python</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="line python"></div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>R</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="line R"></div>
+                </div> -->
+            </div>
+            <button class="moreBtn skillBtn"> see more</button>
+
+        </div>
+    </div>
+ 
+</section>
+<section class="services-section section " id="services">
+    <div class="container">
+       <div class="title">
+        <h2>services</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+          aperiam!
+        </p>
+      </div>
+        <div class="card-container">
+            <div class="card-content">
+                <div class="card">
+                    <div class="card-img">
+                        <!-- <i class="fas fa-project-diagram"></i> -->
+
+                        <img src="./pics/dataimg.jpg" alt="design image">
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>
+                        web designing</h3>
+                    <p class="card-text">we design websites that suit your needs, from commercial websites, blogging and portfolio websites</p>
+                </div>
+
+            </div>
+
+
+            <div class="card-content shrink">
+                <div class="card">
+                    <div class="card-img">
+                        <!-- <i class="fas fa-satellite-dish"></i> -->
+
+                        <img src="./pics/computer.jpeg" alt="design image">
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>
+                        web development</h3>
+                    <p class="card-text">I will develop your websites using the shortest time possible and deliver your source codes within two working days</p>
+                </div>
+
+            </div>
+            <div class="card-content shrink1">
+                <div class="card">
+                    <div class="card-img">
+                        <!-- <i class="fas fa-satellite"></i> -->
+                        <img src="./pics/hostlaptop.jpg" alt="design image">
+                    </div>
+
+                </div>
+                <div class="description">
+                    <h3>web managing
+                    </h3>
+                    <p class="card-text">I also manage commercial websites.</p>
+                </div>
+
+            </div>
+            <!-- <div class="card-content shrink2">
+                <div class="card">
+                    <div class="card-img"> -->
+                        <!-- <i class="fas fa-project-diagram"></i> -->
+
+                        <!-- <img src="./pics/dataimg.jpg" alt="design image">
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>
+                        Data Analysis</h3>
+                    <p class="card-text"> i will analyse your data and build models and algorithims that predict and forecast your business perfomance.</p>
+                </div>
+
+            </div> -->
+        </div>
+        <button class="shrinkBtn">see more <i class="fas fa-angle-double-right"></i></button>
+
+    </div>
+    <!-- <div class="cardText-div">
+        <div class="container">
+            <h4 class="contact-text">contact as for an instance service(s) by the click of a button. <button class="btn" type="submit"> <a href="tel: +254714819979"><i class="fas fa-phone-alt fa-1x"></i> call us</a></button> </h4>
+        </div>
+    </div> -->
+
+
+
+
+</section>
+<!-- ------------portfolio--------------------- -->
+<section class="section portfolio">
+     <div class="title">
+        <h2>my work</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+          aperiam!
+        </p>
+      </div>  
+      <div class="filter">
+      
+        
+      </div>
+      <div class="portfolio--container">
+
+  </div>
+
+</section>
+<!-- ------------contact section--------------- -->
+<section class="contact"  id="contact">
+     <div class="title">
+        <h2>contact details</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+          aperiam!
+        </p>
+      </div>  
+      <div class="contact-container">
+<div class="contact-details">
+  
+<div class="contact-item" id="address">
+    <div class="icon"> <i class="fas  fa-map-marker-alt"></i></div>
+    <div class="text">
+        <h2>address</h2>
+        <h3>20301-47, miharati.</h3>
+    </div>
+</div>
+<div class="contact-personal">
+<div class="contact-item">
+    <div class="icon"> <i class="fas fa-envelope"></i></div>
+    <div class="text">
+       
+     <h2>mail us!</h2>
+        <h6><a href="mailto:mainamartin732@gmail.com">mainamartin732@gmail.com</a></h6>
+    </div>
+</div><div class="contact-item">
+    <div class="icon"> <i class="fas fa-mobile-alt"></i></div>
+    <div class="text">
+         <h2>call us!</h2>
+        <h3>+254714819979</h3>
+    </div>
+</div></div>
+ </div>
+ <div class="other-details">
+    <div class="map">
+
+    </div>
+    <div class="form">
+        <form action="/" method="post">
+<div class="input-group">
+   <input type="text" name="name" id="name" required placeholder="YOUR NAME">
+   <input type="email" name="email" id="email" required placeholder="YOUR EMAIL">
+</div>
+<input type="text" name="subject" id="subject" placeholder="SUBJECT"  required>
+<textarea name="message" id="msg"  cols="30" rows="10" placeholder="enter your message"></textarea>
+<input type="submit" value="send">
+        </form>
+    </div>
+ </div>
+</div>
+
+</section>
+<footer class="footer">
+    <div class="address">
+        <h4>Martin<em>Maina</em></h4>
+        <p class="lead">at our core is a collection of design and development solutions that your business need to compete in the modern market place</p>
+        <div class="footer-icons">
+            <a href="tel:+254714819979"> <i class="fab fa-whatsapp"></i></a>
+           <a href=""> <i class="fab fa-facebook"></i></a>
+           <a href=""> <i class="fab fa-twitter"></i></a>
+           <a href=""> <i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    <h4> copyright &copy;martin maina,since 2021.</h4> 
+</footer>
+<?php require_once 'footer.php'; ?>
